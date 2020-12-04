@@ -54,10 +54,10 @@
 <div class="section">
   <div class="title">Overview</div>
   <div class="body">
-    In this work, we propose a simple yet effective method to improve the <i>fairness</i> of image generation for a pre-trained GAN model <i>without retraining</i>.
+    We propose a simple yet effective method to improve the <i>fairness</i> of image generation for a pre-trained GAN model <i>without retraining</i>.
     Generative Adversarial Networks (GANs) have recently advanced face synthesis by learning the underlying distribution of observed data.
     However, it will lead to a <i>biased</i> image generation due to the imbalanced training data or the mode collapse issue.
-    In our paper, we utilize the recent work of <i>GAN interpretation</i> and a <i>Gaussian Mixture Model (GMM)</i> to support the sampling of latent codes for producing images with a more fair attribute distribution.
+    This work utilizes the recent <i>GAN interpretation method</i> and a <i>Gaussian Mixture Model (GMM)</i> to support the sampling of latent codes for producing images with a more fair attribute distribution.
     We call this method <i>FairGen</i>.
     Experiments show that <i>FairGen</i> can substantially improve the fairness of image generation. The images generated from our method are further applied to reveal and quantify the biases in <i>commercial face classifiers</i> and <i>face super-resolution</i> model.
 
@@ -71,7 +71,7 @@
 <div class="section">
   <div class="title">Results</div>
   <div class="body">
-
+    Notice that all the following images are synthesized by StyleGAN v2. 
     <p style="margin-top: 10pt; text-align:center; font-size:25px; font-weight:bold">Fair Image Generation<p>
 
     <p style="margin-top: 10pt; margin-bottom: 5pt;">Age - Eyeglasses</p>
@@ -162,18 +162,6 @@
         CVPR 2020.</a><br>
       <b>Comment:</b>
       Interprets the face semantics emerging in the latent space of GANs with the help of off-the-shelf classifiers.
-    </div>
-  </div>
-
-  <div class="citation">
-    <div class="image"><img src="./assets/pulse_paper.jpg" height="500" ></div>
-    <div class="comment">
-      <a href="https://github.com/adamian98/pulse" target="_blank">
-        S. Menon, A. Damian, S. Hu, N. Ravi, C. Rudin.
-        PULSE: Self-Supervised Photo Upsampling via Latent Space Exploration of Generative Models.
-        CVPR 2020.</a><br>
-      <b>Comment:</b>
-      Proposes a super-resolution method through searching the outputs of a generative model.
     </div>
   </div>
 
