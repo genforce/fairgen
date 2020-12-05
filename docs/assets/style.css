@@ -50,7 +50,8 @@ pre {
   object-fit: cover;
 }
 .section .header .title {
-  margin: 0 120pt;
+  margin: 0 100pt;
+  width: 500pt;
   text-align: center;
   font-size: 22pt;
 }
