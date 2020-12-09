@@ -9,6 +9,7 @@
 
 [[Paper](https://arxiv.org/pdf/2007.06600.pdf)]
 [[Project Page](https://genforce.github.io/fairgen/)]
+[[Colab](https://colab.research.google.com/drive/1aWR7uEeqs8Fw2eEWbx1dvCYmMm5vehKn?usp=sharing)]
 
 In this repository, we propose a simple yet effective method to improve the *fairness* of image generation for a pre-trained GAN model *without retraining*.
 We utilize the recent work of *GAN interpretation* and a *Gaussian Mixture Model (GMM)* to support the sampling of latent codes for producing images with a more fair attribute distribution.
