@@ -5,11 +5,11 @@
 
 > **Improving the Fairness of Deep Generative Models without Retraining** <br>
 > Shuhan Tan, Yujun Shen, Bolei Zhou <br>
-> *arXiv preprint arXiv:2007.06600*
+> *arXiv preprint arXiv:2012.04842*
 
-[[Paper](https://arxiv.org/pdf/2007.06600.pdf)]
+[[Paper](https://arxiv.org/pdf/2012.04842.pdf)]
 [[Project Page](https://genforce.github.io/fairgen/)]
-[[Colab](https://colab.research.google.com/drive/1aWR7uEeqs8Fw2eEWbx1dvCYmMm5vehKn?usp=sharing)]
+[[Colab](https://colab.research.google.com/drive/1_k45KPpLP0xMqC8AjmUFerqdDCbkwN1l?usp=sharing)]
 
 In this repository, we propose a simple yet effective method to improve the *fairness* of image generation for a pre-trained GAN model *without retraining*.
 We utilize the recent work of *GAN interpretation* and a *Gaussian Mixture Model (GMM)* to support the sampling of latent codes for producing images with a more fair attribute distribution.
@@ -39,7 +39,7 @@ Attribute Alternation by a Face Super-resolution Model
 @article{tan2020fairgen,
   title   = {Improving the Fairness of Deep Generative Models without Retraining},
   author  = {Tan, Shuhan and Shen, Yujun and Zhou, Bolei},
-  journal = {arXiv preprint arXiv:2007.10379},
+  journal = {arXiv preprint arXiv:2012.04842},
   year    = {2020}
 }
 ```
